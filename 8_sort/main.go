@@ -3,6 +3,7 @@ package main
 import (
 	"DA/8_sort/insert"
 	"DA/8_sort/selection"
+	"DA/8_sort/swap"
 )
 
 func main() {
@@ -18,4 +19,7 @@ func main() {
 	selection.SimpleTest(array)
 	selection.TreeTest(array)
 	selection.HeapTest(array)
+
+	swap.BubbleTest(array)
+	swap.QuickTest(array)
 }
