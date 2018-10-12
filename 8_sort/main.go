@@ -5,6 +5,7 @@ import (
 	"DA/8_sort/selection"
 	"DA/8_sort/swap"
 	"DA/8_sort/merge"
+	"DA/8_sort/index"
 )
 
 func main() {
@@ -30,4 +31,7 @@ func main() {
 
 	// 归并排序
 	merge.MgTest(array)
+
+	// 索引排序
+	index.IdxTest(array)
 }
