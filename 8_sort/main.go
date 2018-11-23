@@ -6,6 +6,7 @@ import (
 	"DA/8_sort/swap"
 	"DA/8_sort/merge"
 	"DA/8_sort/index"
+	"DA/8_sort/line"
 )
 
 func main() {
@@ -34,4 +35,13 @@ func main() {
 
 	// 索引排序
 	index.IdxTest(array)
+
+	// 计数排序
+	line.CountTest(array)
+
+	// 基数排序
+	line.RadixTest(array)
+
+	// 桶排序
+	line.BucketTest(array)
 }
