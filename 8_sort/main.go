@@ -7,6 +7,7 @@ import (
 	"DA/8_sort/merge"
 	"DA/8_sort/index"
 	"DA/8_sort/line"
+	"DA/8_sort/out"
 )
 
 func main() {
@@ -44,4 +45,7 @@ func main() {
 
 	// 桶排序
 	line.BucketTest(array)
+
+	// 多路归并
+	out.MultiMergeTest(array)
 }
